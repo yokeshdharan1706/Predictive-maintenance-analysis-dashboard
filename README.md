@@ -1,4 +1,4 @@
-Machine Failure & Efficiency Analysis Dashboard
+#Machine Failure & Efficiency Analysis Dashboard
 📌 Project Overview
 
 This project focuses on analyzing manufacturing machine sensor data to understand failure patterns, operational efficiency, and maintenance risks. It follows an end-to-end analytics workflow, where:
