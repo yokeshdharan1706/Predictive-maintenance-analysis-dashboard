@@ -1,8 +1,8 @@
-Machine Failure & Efficiency Analysis Dashboard
+## Machine Failure & Efficiency Analysis Dashboard
 
 
 
-📌 Project Overview
+### 📌 Project Overview
 
 This project focuses on analyzing manufacturing machine sensor data to understand failure patterns, operational efficiency, and maintenance risks. It follows an end-to-end analytics workflow, where:
 
@@ -12,7 +12,8 @@ Looker Studio is used for interactive dashboards and visual storytelling
 
 The goal is to support preventive maintenance decisions and reduce unplanned machine downtime.
 
-🏗️ Architecture & Data Flow
+## 🏗️ Architecture & Data Flow
+```text
 Raw Sensor Data (CSV / Excel)
         ↓
 Google BigQuery
@@ -25,7 +26,10 @@ Looker Studio
   - Filters & drill-downs
         ↓
 Business Insights & Decisions
-🛠️ Tools & Technologies
+```
+
+
+### 🛠️ Tools & Technologies
 
 Google BigQuery – Data storage, SQL transformations, KPI views
 
@@ -34,6 +38,8 @@ Looker Studio – Dashboarding & visualization
 SQL – KPI logic and dashboard-level queries
 
 GitHub – Version control & project documentation
+
+```text
 
 📂 Repository Structure
 /sql
@@ -49,10 +55,12 @@ GitHub – Version control & project documentation
 /dashboard
  ├── machine_efficiency_dashboard.png
 
+```
 
-README.md
-🧮 Data Modeling Approach
-1️⃣ BigQuery (Data Layer)
+
+## README.md
+### 🧮 Data Modeling Approach
+***1️⃣ BigQuery (Data Layer)***
 
 Used to clean raw sensor data
 
@@ -68,7 +76,7 @@ Machine efficiency indicators
 
 These queries act as a single source of truth for reporting.
 
-2️⃣ Dashboard SQL (Visualization Layer)
+***2️⃣ Dashboard SQL (Visualization Layer)***
 
 Used only for:
 
@@ -80,7 +88,7 @@ Filters and breakdowns
 
 Heavy aggregations are intentionally avoided at this layer for better performance and consistency.
 
-📊 Key KPIs & Metrics
+***📊 Key KPIs & Metrics***
 
 Total Machines Analyzed
 
@@ -94,7 +102,7 @@ Machine Efficiency Score
 
 Failure Distribution by Machine Type
 
-📈 Looker Studio Dashboard
+***📈 Looker Studio Dashboard***
 
 🔗 Live Dashboard (View Access): (Add your Looker Studio link here)
 
@@ -108,7 +116,7 @@ Operational Metrics – Tool wear, torque, and speed relationships
 
 📷 Dashboard preview images are available in the /dashboard folder.
 
-🔍 Key Insights
+### 🔍 Key Insights
 
 Certain machine types show higher failure concentration under increased tool wear
 
@@ -116,7 +124,7 @@ Torque and tool wear demonstrate strong correlation in failure cases
 
 Machines operating beyond optimal efficiency thresholds should be prioritized for maintenance
 
-💡 Business Recommendations
+### 💡 Business Recommendations
 
 Implement preventive maintenance for high tool-wear machines
 
@@ -124,7 +132,7 @@ Monitor torque thresholds to reduce overstrain failures
 
 Use KPI views to automate alerts for high-risk machines
 
-🚀 Future Enhancements
+### 🚀 Future Enhancements
 
 Machine learning–based failure prediction
 
@@ -134,7 +142,7 @@ Maintenance cost impact analysis
 
 Automated alerting using BigQuery + Looker
 
-🎯 Skills Demonstrated
+### 🎯 Skills Demonstrated
 
 SQL-based data modeling (BigQuery)
 
@@ -146,14 +154,15 @@ End-to-end analytics workflow
 
 Business-focused data storytelling
 
+```text
 📬 Contact
 
 Yokesh Dharan
-Data Analyst | Analytics Engineer (Aspirant)
+Data Analyst 
 
 Feel free to connect or raise issues for feedback and improvements.
 
-I’ve created a complete, professional README.md for your project in the canvas 👈
+```
 This README is portfolio-ready and matches exactly what you’ve done:
 
 ✅ BigQuery for KPI queries
