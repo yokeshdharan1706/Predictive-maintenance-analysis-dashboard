@@ -163,9 +163,3 @@ Data Analyst
 Feel free to connect or raise issues for feedback and improvements.
 
 ```
-This README is portfolio-ready and matches exactly what you’ve done:
-
-✅ BigQuery for KPI queries
-✅ Separate dashboard SQL for visualization
-✅ Looker Studio dashboard integration
-✅ Analytics-engineer–style architecture
